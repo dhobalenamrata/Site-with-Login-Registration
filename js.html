@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+  margin:0;
+  padding:0;
+}
+.wraper{
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  
+  
+}
+button{
+  padding:5px 10px;
+  
+}
+    </style>
+</head>
+<body>
+    
+    <div class="wraper">
+        <button class="red">red</button>
+        <button id="yellow">yellow</button>
+        <button id="blue">blue</button>
+        <button id="pink">pink</button>
+        <button id="orange">orange</button>    
+    </div>
+
+    <script>
+        var red=document.querySelector(".red");
+        var yellow=document.getElementById("yellow");
+        var blue=document.getElementById("blue");
+        var pink=document.getElementById("pink");
+        var orange=document.getElementById("orange");
+        // var wraper=document.getElementByClassName("wraper");
+        red.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "red";
+        });
+        yellow.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "yellow";
+        });
+        blue.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "blue";
+        });
+        pink.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "hotpink";
+        });
+        orange.addEventListener('click', ()=>{
+        document.body.style.backgroundColor = "orange";
+        });
+
+    </script>
+</body>
+</html>
