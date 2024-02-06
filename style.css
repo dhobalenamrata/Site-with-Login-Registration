@@ -148,6 +148,7 @@ header {
     font-size: 2em;
     font-weight: 900;
     border-bottom-left-radius: 20px;
+    z-index: 1;
 }
 
 .wrapper .form-box h2 {
