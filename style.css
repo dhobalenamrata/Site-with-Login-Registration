@@ -23,7 +23,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-/*     z-index: 99; */
     top: 0;
     left: 0;
 }
@@ -148,7 +147,7 @@ header {
     font-size: 2em;
     font-weight: 900;
     border-bottom-left-radius: 20px;
-    z-index: 100;
+    z-index: 99;
 }
 
 .wrapper .form-box h2 {
