@@ -17,6 +17,5 @@ btnLoginPopup.addEventListener('click', () => {
 });
 
 closeIcon.addEventListener('click', () => {
-    alert(1111)
     wrapper.classList.remove('active-popup');
 });
